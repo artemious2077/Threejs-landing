@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background-color: #1b1414;
-  color: #dbb7b7;
+  color: #c7c7d3e5;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   /* vertical lines */
@@ -14,7 +14,7 @@ body {
     repeating-linear-gradient(
       to right,
       transparent 0 500px,
-      #abb1ff77 500px 501px
+      #db575777 500px 501px
     );
   background-size: 100%;
 }
@@ -53,6 +53,11 @@ header {
   backdrop-filter: blur(20px);
   z-index: 100;
   background-color: #1b1b1b11;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0 500px,
+    #eee1 500px 501px
+  );
 }
 header .content-fit {
   display: flex;
@@ -80,7 +85,7 @@ header .content-fit nav ul {
   top: 0.5em;
   inset: 0.66em 0 0 0;
   z-index: -1;
-  color: #491d11;
+  color: #721212;
 }
 .section .decorate {
   position: absolute;
@@ -139,6 +144,8 @@ header .content-fit nav ul {
 #contact .sign {
   font-family: "Bimbo", sans-serif;
   font-size: 10em;
+  width: 100%;
+  max-width: 600px;
 }
 
 @media screen and (max-width: 1023px) {
