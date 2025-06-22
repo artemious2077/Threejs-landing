@@ -74,11 +74,11 @@ let arrPosModel = [
   {
     id: "description",
     position: { x: 5, y: -1, z: -22 },
-    rotation: { x: 5.6, y: 0.5, z: 0 },
+    rotation: { x: 5.6, y: -5, z: 0 },
   },
   {
     id: "contact",
-    position: { x: -40, y: -30, z: -0.1 },
+    position: { x: -180, y: -30, z: -80 },
     rotation: { x: 20, y: -0.5, z: 0 },
   },
 ];
