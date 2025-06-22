@@ -28,6 +28,10 @@ body {
   list-style: none;
   box-sizing: border-box;
 }
+main {
+  overflow: hidden;
+}
+
 .section {
   width: 100%;
   min-height: 100vh;
@@ -72,7 +76,7 @@ header .content-fit nav ul {
 }
 
 #banner .title {
-  color: #FF501B;
+  color: #ff501b;
   font-size: 11em;
   font-family: "devil breeze";
   font-weight: bold;
@@ -180,10 +184,24 @@ header .content-fit nav ul {
   }
 }
 
-/* 3D model styles */
+/* 3D models style */
 #container3D {
   position: fixed;
   inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
+#cannon3D {
+  position: absolute;
+  bottom: -40px !important;
   z-index: 999;
   pointer-events: none;
+}
+
+#tank3D {
+  position: absolute;
+  z-index: 999;
+  pointer-events: none;
+  padding-top: 980px !important;
 }
