@@ -1,4 +1,4 @@
-# #D design with THree.js
+# 3D design with THree.js
 
 Screenshot:
 
